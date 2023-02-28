@@ -1,7 +1,7 @@
 // Get News Data from https://gnews.io API
 const loadNews = async (search) => {
   const formattedSearch = encodeURIComponent(search);
-  const url = `https://gnews.io/api/v4/search?q=${formattedSearch}&apikey=13d3169c08d3c484251472051919676`;
+  const url = `https://gnews.io/api/v4/search?q=${formattedSearch}&apikey=13d3169c08d3c484251472051919676d`;
   console.log(formattedSearch)
 
   try {
